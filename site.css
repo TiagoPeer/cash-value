@@ -1,0 +1,47 @@
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+.banner-img {
+  max-height: 100vh;
+  min-height: 100vh;
+  background-image: url("images/banner.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.side-banner {
+  background-color: #ccc9c6;
+}
+
+.side-banner .box {
+  background-color: #f2efeb;
+  border-radius: 15px;
+}
+
+.title {
+  font-size: 3rem;
+  color: #996a30;
+  text-decoration: underline;
+}
+
+#about-us {
+  background-image: url("images/section_background.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 30px;
+}
+
+.about-us-content {
+  background-color: #f2efeb;
+  margin: 60px;
+  padding: 50px 70px;
+}
+
+.text-1 {
+  font-size: 2rem;
+}
