@@ -23,8 +23,8 @@ html {
 }
 
 .side-banner .box {
-  background-color: #f2efeb;
-  border-radius: 15px;
+  width: 80%;
+  margin-bottom: 30px;
 }
 
 .side-banner h2 {
@@ -62,7 +62,7 @@ html {
 
 .search-button-container {
   position: absolute;
-  top: 5%;
+  bottom: 5%;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -72,9 +72,9 @@ html {
   color: #060960;
   text-decoration: none;
   font-size: 1.4rem;
-  padding: 20px;
   border-radius: 30px;
   border-color: #996a30;
+  width: 100%;
 }
 
 .btn-1:hover {
