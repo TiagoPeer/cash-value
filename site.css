@@ -1,3 +1,8 @@
+@font-face {
+  font-family: SimpleSerenity;
+  src: url(fonts/Simple-Serenity-Script.ttf);
+}
+
 html {
   font-size: 100%;
   scroll-behavior: smooth;
@@ -10,6 +15,7 @@ html {
   background-size: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .side-banner {
@@ -19,6 +25,14 @@ html {
 .side-banner .box {
   background-color: #f2efeb;
   border-radius: 15px;
+}
+
+.side-banner h2 {
+  font-size: 2.5rem;
+  color: #996a30;
+  text-decoration: underline;
+  font-family: SimpleSerenity;
+  text-transform: uppercase;
 }
 
 .title {
@@ -43,5 +57,28 @@ html {
 }
 
 .text-1 {
-  font-size: 2rem;
+  font-size: 1.7rem;
+}
+
+.search-button-container {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.btn-1 {
+  background-color: #f2efeb;
+  color: #060960;
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 20px;
+  border-radius: 30px;
+  border-color: #996a30;
+}
+
+.btn-1:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #996a30;
+  color: #f2efeb;
 }
