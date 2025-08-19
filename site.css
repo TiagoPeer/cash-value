@@ -3,6 +3,8 @@
   src: url(fonts/Simple-Serenity-Script.ttf);
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
 html {
   font-size: 100%;
   scroll-behavior: smooth;
@@ -24,7 +26,7 @@ html {
 
 .side-banner .box {
   width: 80%;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .side-banner h2 {
@@ -71,10 +73,14 @@ html {
   background-color: #f2efeb;
   color: #060960;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border-radius: 30px;
   border-color: #996a30;
   width: 100%;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
 }
 
 .btn-1:hover {
