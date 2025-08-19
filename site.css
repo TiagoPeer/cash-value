@@ -37,10 +37,20 @@ html {
   text-transform: uppercase;
 }
 
-.title {
-  font-size: 3rem;
+.title-1 {
+  font-size: 2.5rem;
   color: #996a30;
   text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.title-2 {
+  font-size: 1.8rem;
+  color: #996a30;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 #about-us {
@@ -59,7 +69,15 @@ html {
 }
 
 .text-1 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
+  font-family: "Libre Baskerville", serif;
+  color: #060960;
+}
+
+.text-3 {
+  font-size: 1.2rem;
+  font-family: "Libre Baskerville", serif;
+  color: #060960;
 }
 
 .search-button-container {
@@ -87,4 +105,41 @@ html {
   transition: all 0.3s ease-in-out;
   background-color: #996a30;
   color: #f2efeb;
+}
+
+.icon-box img {
+  width: 30%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#real-estate-mediation {
+  background-color: #ccc9c6;
+  padding: 70px 30px;
+}
+
+.real-estate-mediation-content {
+  background-color: #f2efeb;
+}
+
+.legal-services-content {
+  background-color: #f2efeb;
+}
+
+.legal-services-content .side-box {
+  background-color: #f2efeb;
+}
+
+.legal-services-content .middle-box {
+  background-color: #4c4c44;
+}
+
+.legal-services-content .middle-box img {
+  filter: brightness(0) invert(1);
+  width: 100%;
+}
+
+#assessment-and-consultancy {
+  background-image: url("images/section_background.jpg");
+  padding: 70px 30px;
 }
