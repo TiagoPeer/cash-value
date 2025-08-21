@@ -64,7 +64,6 @@ html {
 
 .about-us-content {
   background-color: #f2efeb;
-  margin: 60px;
   padding: 50px 70px;
 }
 
@@ -141,5 +140,131 @@ html {
 
 #assessment-and-consultancy {
   background-image: url("images/section_background.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 70px 30px;
+}
+
+.assessment-and-consultancy-content {
+  background-color: #f2efeb;
+  padding: 50px 70px;
+}
+
+.avaliation-content {
+  background-color: #ccc9c6;
+}
+
+.avaliation-content .icon-card {
+  text-align: center;
+}
+
+.avaliation-content .icon-card img {
+  width: 30%;
+}
+
+#content-1 {
+  background-color: #ccc9c6;
+  padding: 70px 0px;
+}
+
+#content-1 .content-1-container {
+  background-image: url("images/section_background.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 40px;
+}
+
+#content-1 .content-1-container .content {
+  width: 60%;
+}
+
+#content-1 .content-1-container .content-2 {
+  background-color: #ccc9c6;
+  padding: 0 30px;
+}
+
+#content-1 ol {
+  background-color: #efede9;
+  padding: 30px;
+  margin: 0;
+  list-style: disc;
+}
+
+#content-1 ol li {
+  margin-left: 20px;
+}
+
+#evaluate-properties {
+  background-color: #ccc9c6;
+  padding: 70px 30px;
+}
+
+#evaluate-properties .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 70px;
+}
+
+#evaluate-properties .grid .grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+#evaluate-properties .grid .grid-item:nth-child(odd) {
+  background-color: #f2efeb;
+  border: 1px solid #060960;
+}
+
+#evaluate-properties .grid .grid-item:nth-child(odd) p {
+  color: #060960;
+}
+
+#evaluate-properties .grid .grid-item:nth-child(even) {
+  background-color: #a09c99;
+  border: 1px solid #f2efeb;
+}
+
+#evaluate-properties .grid .grid-item:nth-child(even) p {
+  color: #f2efeb;
+}
+
+#evaluate-properties .grid .grid-item:hover {
+  background-color: #060960;
+  border: 1px solid #f2efeb;
+}
+
+#evaluate-properties .grid .grid-item:hover p {
+  color: #f2efeb;
+}
+
+#lsf-construction {
+  background-image: url("images/section_background.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 30px;
+}
+
+#lsf-construction .lsf-construction-content .numeric-bullet {
+  border: 1px solid #060960;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #060960;
+}
+
+#lsf-construction .lsf-construction-content p {
+  color: #996a30;
 }
